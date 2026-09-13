@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coming Soon — Varsha Thakur</title>
+<style>
+  :root{
+    --bg: #F7F6F3;
+    --bg-alt: #EEEDE7;
+    --ink: #1A1A1A;
+    --ink-soft: #5C6670;
+    --accent: #7A2616;
+    --accent-light: #8F3323;
+    --rule: #DEDCD4;
+    --serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --sans: 'Helvetica Neue', Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  *{ box-sizing: border-box; margin:0; padding:0; }
+  body{
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .panel{
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+    padding: 68px 40px;
+    border-top: 1px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+  }
+  .eyebrow{
+    font-size: 14px; color: var(--accent); font-weight: 500;
+    margin-bottom: 20px;
+  }
+  h1{
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  p{
+    font-size: 15.5px;
+    color: var(--ink-soft);
+    margin-bottom: 32px;
+  }
+  .home-link{
+    display: inline-block;
+    font-family: var(--sans);
+    font-size: 14.5px;
+    font-weight: 500;
+    color: var(--bg);
+    background: var(--accent);
+    padding: 13px 26px;
+    text-decoration: none;
+    border: 1px solid var(--accent);
+    border-radius: 3px;
+    transition: background .15s ease;
+  }
+  .home-link:hover, .home-link:focus-visible{ background: var(--accent-light); border-color: var(--accent-light); }
+  .home-link:focus-visible{ outline: 2px solid var(--accent); outline-offset: 3px; }
+</style>
+</head>
+<body>
+
+  <div class="panel">
+    <div class="eyebrow">Education &middot; Technology &middot; Peacebuilding</div>
+    <h1>Coming soon</h1>
+    <p>This page isn't ready yet. Check back soon.</p>
+    <a class="home-link" href="index.html">Back to home</a>
+  </div>
+
+</body>
+</html>
